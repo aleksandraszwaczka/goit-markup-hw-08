@@ -1,0 +1,39 @@
+.description {
+  &__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 94px auto;
+  }
+
+  &__item {
+    margin-right: 30px;
+  }
+
+  &__icon {
+    background: #f5f4fa;
+    height: 120px;
+    width: 270px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+  }
+
+  &__text {
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: #757575;
+  }
+}

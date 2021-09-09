@@ -1,0 +1,39 @@
+.choosing-images {
+
+&__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-bottom: 64px;
+    row-gap: 30px;
+    column-gap: 30px;
+}
+
+    &__item {
+      width: 370px;
+      border: 1px solid #EEEEEE;
+    }
+    
+    &__item:hover,
+    &__item:focus {
+      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+    cursor: pointer;
+    transition: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  &__img {
+    width: 370px;
+    height: 294px;
+  }
+  
+  &__item:hover .overlay {
+    transform: translateY(0);
+    visibility: unset;
+    transition: transform visibility;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}

@@ -1,0 +1,49 @@
+.our-team-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    
+    &__link {
+        fill: #afb1b8;
+        width: 44px;
+        height: 44px;
+        background-color: var(--third-color);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+    }
+    
+    &__item {
+      align-items: center;
+      width: 44px;
+      height: 44px;
+      margin-left: 10px;
+    }
+    
+    &__item:first-child {
+      margin-left: 0px;
+    }
+
+    &__img {
+      width: 20px;
+      height: 20px;
+    }
+    
+    &__img--dark-bg {
+        width: 20px;
+        height: 20px;
+    }
+    
+    &__link:focus,
+    &__link:hover {
+        color: var(--third-color);
+        fill: var(--third-color);
+      background-color: var(--second-color);
+      transition: color fill background-color;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}

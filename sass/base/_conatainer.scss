@@ -1,0 +1,44 @@
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .header .container {
+    display: flex;
+    align-items: center;
+  }
+
+  .hero .container {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+  
+  .what-we-do .container {
+    margin: 94px auto;
+  }
+
+  .our-team .container {
+    padding-bottom: 94px;
+    padding-top: 94px;
+  }
+
+  .footer .container {
+    display: flex;
+    align-items: baseline;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .choosing-menu .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .overlay-container {
+    position: relative;
+    overflow: hidden;
+  }
+
+  
